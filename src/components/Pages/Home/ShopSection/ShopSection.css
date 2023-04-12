@@ -1,0 +1,53 @@
+/* Shop radio button start */
+
+
+.wrapper {
+    margin: 0 auto;
+    display: inline-flex;
+    gap: 25px;
+    height: 100px;
+    width: 480px;
+    align-items: center;
+    justify-content: space-;
+    border-radius: 5px;
+    padding: 25px 0;
+}
+
+.wrapper .option {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* gap:5px; */
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0px 10px;
+    border: 2px solid #000099;
+    transition: all 0.3s ease;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+#option-1:checked:checked~.option-1,
+#option-2:checked:checked~.option-2 {
+    border-color: #000099;
+    background: #000099;
+}
+
+.wrapper .option span {
+    font-size: 20px;
+    color: #000099;
+}
+
+#option-1:checked:checked~.option-1 span,
+#option-2:checked:checked~.option-2 span {
+    color: #fff;
+}
+
+/* Shop radio button end */

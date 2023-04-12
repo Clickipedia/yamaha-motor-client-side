@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"FZS-FI",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum accumsan lacus vel facilisis. ",
+        "image":"../src/assets/All Images/fzs-fi-bs6.png",
+        "bg":"../src/assets/All Images/bg-fzs-fi-bs6.png",
+        "bluetooth":false
+    },
+    {
+        "id":2,
+        "name":"MT-15 CYW",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum accumsan lacus vel facilisis. ",
+        "image":"../src/assets/All Images/mt15-cyw.png",
+        "bg":"../src/assets/All Images/bg-mt15-cyw.png",
+        "bluetooth":false
+    },
+    {
+        "id":3,
+        "name":"FZ-X",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum accumsan lacus vel facilisis. ",
+        "image":"../src/assets/All Images/fz-x.png",
+        "bg":"../src/assets/All Images/bg-fz-x.png",
+        "bluetooth":true
+    },
+    {
+        "id":4,
+        "name":"FZS-FI Vintage",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum accumsan lacus vel facilisis. ",
+        "image":"../src/assets/All Images/vintage.png",
+        "bg":"../src/assets/All Images/bg-vintage.png",
+        "bluetooth":true
+    },
+    {
+        "id":5,
+        "name":"FZ-25",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum accumsan lacus vel facilisis. ",
+        "image":"../src/assets/All Images/fz-25.png",
+        "bg":"../src/assets/All Images/bg-fz-25.png",
+        "bluetooth":false
+    },
+    {
+        "id":6,
+        "name":"MT-15",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum accumsan lacus vel facilisis. ",
+        "image":"../src/assets/All Images/mt15bs6.png",
+        "bg":"../src/assets/All Images/bg-mt15bs6.png",
+        "bluetooth":false
+    }
+]

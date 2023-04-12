@@ -1,0 +1,1 @@
+# yamaha-motor-client-side
