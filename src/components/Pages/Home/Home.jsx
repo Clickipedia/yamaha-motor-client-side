@@ -43,7 +43,7 @@ const Home = () => {
             {/* Gallery section end */}
             
             {/* conatct section start */}
-            <section>
+            <section className='my-10'>
                 <ContactSection/>
             </section>
             {/* contact section end */}
