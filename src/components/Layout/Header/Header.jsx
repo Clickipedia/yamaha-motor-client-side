@@ -13,8 +13,8 @@ const Header = () => {
             {/* Upper Header Start */}
             <div className='fixed z-[99] top-0 w-full'>
                 <div className='flex justify-between px-16 py-3 bg-[#000099] text-white'>
-                    <div className='flexgit gap-3'>
-                        <span className='text-2xl'><IoIosMail /></span>
+                    <div className='flex gap-3'>
+                        <span className='text-2xl mt-[1px]'><IoIosMail /></span>
                         <p>yamaha-motor@gmail.com</p>
                     </div>
                     <div>

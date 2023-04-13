@@ -9,6 +9,7 @@ import { useLoaderData } from 'react-router-dom';
 import GallerySection from './GallerySection/GallerySection';
 import ContactSection from './ContactSection/ContactSection';
 import BranchSection from './BranchSection/BranchSection';
+import ReviewSection from './ReviewSection/ReviewSection';
 
 
 const Home = () => {
@@ -52,6 +53,12 @@ const Home = () => {
             {/* branch section start */}
             <section className='my-20'>
                 <BranchSection/>
+            </section>
+            {/* branch section end */}
+           
+            {/* branch section start */}
+            <section className='my-20'>
+                <ReviewSection/>
             </section>
             {/* branch section end */}
 
