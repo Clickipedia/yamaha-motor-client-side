@@ -11,7 +11,7 @@ const WelcomeSection = () => {
         <div className='grid grid-cols-2 items-center justify-center mx-auto w-2/3 gap-2'>
         <div className='welcome-image'>
             <img src={welcomTv} alt="" />
-            <div style={{backgroundImage:`url('${welcomeBackground}')`}} className='mask-image'>
+            <div style={{backgroundImage:`url('${welcomeBackground}')`}} className='mask-image z-10'>
                 
             </div>
         </div>

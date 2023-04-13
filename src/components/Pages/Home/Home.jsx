@@ -8,6 +8,7 @@ import ShopSection from './ShopSection/ShopSection';
 import { useLoaderData } from 'react-router-dom';
 import GallerySection from './GallerySection/GallerySection';
 import ContactSection from './ContactSection/ContactSection';
+import BranchSection from './BranchSection/BranchSection';
 
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
     return (
         <div>
             {/* Main header start */}
-            <section className='relative -mt-4'>
+            <section className='relative'>
                 <HeaderSection />
             </section>
             {/* Main header end */}
@@ -43,10 +44,16 @@ const Home = () => {
             {/* Gallery section end */}
             
             {/* conatct section start */}
-            <section className='my-10'>
+            <section className=''>
                 <ContactSection/>
             </section>
             {/* contact section end */}
+            
+            {/* branch section start */}
+            <section className='my-20'>
+                <BranchSection/>
+            </section>
+            {/* branch section end */}
 
 
         </div>

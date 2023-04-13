@@ -20,11 +20,11 @@ const BikeCard = ({ bike }) => {
             </div>
             <div className={`h-[18.75rem]`} >
                 <img className='absolute z-10 w-[32rem] scale-125' src={bg} alt="" />
-                <img className='absolute z-20 top-10 left-3 hover:scale-105 duration-500' src={image} alt="" />
+                <img className='absolute z-20 top-10 left-6 hover:scale-105 duration-500 w-[20rem]' src={image} alt="" />
             </div>
             <div className='mt-8'>
                 <div className='flex justify-center items-center gap-3'>
-                    <img src={yamahaLogo} alt="" />
+                    <img className='w-6' src={yamahaLogo} alt="" />
                     <h1 className='text-xl font-bold' >{name}</h1>
                     {
                         bluetooth ? <img src={BT} /> : ''

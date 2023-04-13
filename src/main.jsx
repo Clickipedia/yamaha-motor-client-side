@@ -4,6 +4,7 @@ import App from './App'
 import './index.css'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './components/Routes/Router'
+// import 'react-multi-carousel/lib/styles.css';
 
 
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './ShopSection.css';
 
@@ -11,7 +11,22 @@ import BikeCard from './BikeCard/BikeCard';
 const ShopSection = ({ loadData }) => {
 
 
-    // console.log(loadData);
+    const [motors ,  setMotors] = useState('bikes');
+
+    useEffect(()=>{
+
+    },[])
+    
+    
+    const handleBikes = ()=>{
+        setMotors('bikes');
+        
+    }
+    const handleScooty = ()=>{
+        setMotors('scooty');
+    }
+    
+    const filterData = loadData.filter(motor => motor.catagory === motors )
 
     return (
         <div className='w-full my-20'>
@@ -28,11 +43,11 @@ const ShopSection = ({ loadData }) => {
                 <div className="wrapper">
                     <input type="radio" name="select" id="option-1" checked />
                     <input type="radio" name="select" id="option-2" />
-                    <label for="option-1" className="option option-1">
-                        <span>MOTORCYCLES</span>
+                    <label onClick={handleBikes} for="option-1" className="option option-1">
+                        <span >MOTORCYCLES</span>
                     </label>
-                    <label for="option-2" className="option option-2">
-                        <span>SCOOTERS</span>
+                    <label onClick={handleScooty} for="option-2" className="option option-2">
+                        <span >SCOOTERS</span>
                     </label>
                 </div>
             </div>
@@ -41,7 +56,7 @@ const ShopSection = ({ loadData }) => {
             {/* Shop show bikes section start */}
             <div className='grid grid-cols-3 gap-y-12 w-2/3 mt-[3.5rem] mx-auto'>
                 {
-                    loadData.map(bike => <BikeCard key={bike.id} bike={bike} /> )
+                    filterData.map(bike => <BikeCard key={bike.id} bike={bike} /> )
                 }
             </div>
             {/* Shop show bikes section end */}

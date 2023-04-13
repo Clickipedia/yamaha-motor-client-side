@@ -11,9 +11,9 @@ const Header = () => {
     return (
         <div>
             {/* Upper Header Start */}
-            <div className='fixed z-50 top-0 w-full'>
+            <div className='fixed z-[99] top-0 w-full'>
                 <div className='flex justify-between px-16 py-3 bg-[#000099] text-white'>
-                    <div className='flex items-end gap-3'>
+                    <div className='flexgit gap-3'>
                         <span className='text-2xl'><IoIosMail /></span>
                         <p>yamaha-motor@gmail.com</p>
                     </div>
